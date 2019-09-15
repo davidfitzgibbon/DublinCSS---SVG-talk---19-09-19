@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+Gemfile.lock
+_includes/helper/build.css
+node_modules
