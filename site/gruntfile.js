@@ -4,21 +4,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    sass: {
-      dist: {
-        options: {
-          style: 'compressed',
-          sourceMap: true
-        },
-        files: {
-          'css/build.css': '_sass/build.scss'
-        }
-      }
-    },
-
     svgstore: {
       options: {
-        prefix : 'icon-',
         svg: {
           "xmlns": "http://www.w3.org/2000/svg",
           "xmlns:xlink": "http://www.w3.org/1999/xlink",
@@ -44,19 +31,14 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      css: {
-        files: ["_site/css/**/*.css"],
-        tasks: ["shell:jekyllBuild"]
-      },
       svg: {
         files: ["_svg/**/*.svg"],
-        tasks: ["svgstore"]
+        tasks: ["svgstore","shell:jekyllBuild"]
       },
       site: {
         files: [
-          "_includes/**/*.html",
           "_layouts/**/*.html",
-          "_sass/**/*.scss",
+          "css/**/*.css",
           "page/**/*.md",
           "index.md"
         ],

@@ -1,0 +1,52 @@
+:root {
+    --primary: black;
+    --secondary: white;
+    --tertiary: red;
+}
+
+.svg--p {
+    color: var(--primary);
+    fill: var(--secondary);
+    background: var(--tertiary);
+}
+
+.svg--s {
+    color: var(--secondary);
+    fill: var(--tertiary);
+    background: var(--primary);
+}
+
+.svg--t {
+    color: var(--tertiary);
+    fill: var(--primary);
+    background: var(--secondary);
+}
+
+/* STUFF JUST TO SET UP THE EXAMPLE */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 2em;
+    text-align: center;
+    font-family: 'Manjari', sans-serif;
+}
+a,
+a:hover,
+a:focus {
+    color: var(--tertiary);
+    line-height: 2;
+}
+svg {
+    width: 100px;
+    display: inline-block;
+}
+h1 {
+    font-weight: normal;
+    padding-bottom: 1em;
+}
+div {
+    padding: 1em;
+    text-align: center;
+}
