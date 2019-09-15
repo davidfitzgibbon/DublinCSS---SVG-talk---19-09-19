@@ -39,8 +39,8 @@ a:focus {
     line-height: 2;
 }
 svg {
-    width: 100px;
-    display: inline-block;
+    width: 90%;
+    max-width: 400px;
 }
 h1 {
     font-weight: normal;

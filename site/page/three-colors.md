@@ -16,4 +16,6 @@ permalink: /three-colors/
 </style>
 
 
-<svg><use xlink:href="/svg/sprite.svg#three-colors"></use></svg>
+<svg viewbox="0 0 100 100">
+    <use xlink:href="/svg/sprite.svg#three-colors"></use>
+</svg>

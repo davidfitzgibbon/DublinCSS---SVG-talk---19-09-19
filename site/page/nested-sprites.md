@@ -8,12 +8,12 @@ permalink: /nested-sprites/
 
 <style>
     svg {
-        --primary: #fd6429;
-        --secondary: #fd6429;
-
-        background: transparent;
+        color: #fd6429;
+        fill: #275287;
     }
 </style>
 
 
-<svg style="color: #fd6429; fill: #275287;"><use xlink:href="/svg/sprite.svg#shades-combined"></use></svg>
+<svg viewbox="0 0 100 100">
+    <use xlink:href="/svg/sprite.svg#shades-combined"></use>
+</svg>
