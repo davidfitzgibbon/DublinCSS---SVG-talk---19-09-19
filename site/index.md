@@ -14,6 +14,7 @@ title: SVG for Teams
 ## <a href="/shades">Shades</a>
 ## <a href="/nested-sprites">Nested Sprites</a>
 ## <a href="/three-colors">Three Colors</a>
+## <a href="/animated">Animated</a>
 
 <br>
 <br>
