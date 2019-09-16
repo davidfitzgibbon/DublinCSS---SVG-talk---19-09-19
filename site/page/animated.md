@@ -16,7 +16,7 @@ permalink: /animated/
     @keyframes day {
         100% {
             color: blue;
-            fill: orange;
+            fill: pink;
         }
     }
 </style>
