@@ -1,27 +1,3 @@
-:root {
-    --primary: black;
-    --secondary: white;
-    --tertiary: red;
-}
-
-.svg--p {
-    color: var(--primary);
-    fill: var(--secondary);
-    background: var(--tertiary);
-}
-
-.svg--s {
-    color: var(--secondary);
-    fill: var(--tertiary);
-    background: var(--primary);
-}
-
-.svg--t {
-    color: var(--tertiary);
-    fill: var(--primary);
-    background: var(--secondary);
-}
-
 /* STUFF JUST TO SET UP THE EXAMPLE */
 * {
     padding: 0;
@@ -49,4 +25,8 @@ h1 {
 div {
     padding: 1em;
     text-align: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

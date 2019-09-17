@@ -1,0 +1,32 @@
+---
+layout: layout
+title: All SVGS
+permalink: /all/
+---
+
+<h1>All SVGs from tonight</h1>
+
+<style>
+    svg {
+        --primary: yellow;
+        --secondary: lightblue;
+        --tertiary: lightgreen;
+
+        background: transparent;
+    }
+    @keyframes day {
+        100% {
+            color: blue;
+            fill: pink;
+        }
+    }
+</style>
+
+<div class="gallery">
+    <svg viewbox="0 0 100 100" style="color: red; fill: black;"><use xlink:href="/svg/sprite.svg#one-color"></use></svg>
+    <svg viewbox="0 0 100 100" style="color: red; fill: black;"><use xlink:href="/svg/sprite.svg#two-colors"></use></svg>
+    <svg viewbox="0 0 100 100" style="color: #fd6429; fill: #275287;"><use xlink:href="/svg/sprite.svg#shades-single"></use></svg>
+    <svg viewbox="0 0 100 100" style="color: #fd6429; fill: #275287;"><use xlink:href="/svg/sprite.svg#shades-combined"></use></svg>
+    <svg viewbox="0 0 100 100" style="color: #00B6FF; fill: #FFD500;"><use xlink:href="/svg/sprite.svg#three-colors"></use></svg>
+    <svg viewbox="0 0 100 100" style="color: #00B6FF; fill: #FFD500;animation: 5s infinite day;animation-direction: alternate-reverse;"><use xlink:href="/svg/sprite.svg#three-colors"></use></svg>
+</div>

@@ -1,0 +1,54 @@
+---
+layout: layout
+title: One Color
+permalink: /one-color/
+---
+
+<style>
+    :root {
+        --primary: black;
+        --secondary: white;
+        --tertiary: rgb(255, 117, 5);
+    }
+
+    .theme--primary {
+        fill: var(--primary);
+        background: var(--secondary);
+        color: var(--tertiary)
+    }
+
+    .theme--secondary {
+        fill: var(--secondary);
+        background: var(--tertiary);
+        color: var(--primary)
+    }
+
+    .theme--tertiary {
+        fill: var(--tertiary);
+        background: var(--primary);
+        color: var(--secondary)
+    }
+</style>
+
+<h1>{{page.title}}</h1>
+
+<div class="gallery">
+        <div class="theme--primary">
+            <h1>Hello</h1>
+            <svg viewbox="0 0 100 100">
+                <use xlink:href="/svg/sprite.svg#one-color"></use>
+            </svg>
+        </div>
+        <div class="theme--secondary">
+            <h1>Hello</h1>
+            <svg viewbox="0 0 100 100">
+                <use xlink:href="/svg/sprite.svg#one-color"></use>
+            </svg>
+        </div>
+        <div class="theme--tertiary">
+            <h1>Hello</h1>
+            <svg viewbox="0 0 100 100">
+                <use xlink:href="/svg/sprite.svg#one-color"></use>
+            </svg>
+        </div>
+</div>

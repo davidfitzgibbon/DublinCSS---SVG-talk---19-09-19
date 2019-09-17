@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         files: [
           "_layouts/**/*.html",
           "css/**/*.css",
-          "page/**/*.md",
+          "page/**/*.html",
           "index.md"
         ],
         tasks: ["shell:jekyllBuild"]
