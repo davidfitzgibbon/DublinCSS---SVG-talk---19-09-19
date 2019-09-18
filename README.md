@@ -1,5 +1,3 @@
-# DublinCSS - SVG talk - 19 09 19
-
 ## How to run the code in this repo
 
 ### Requirements
