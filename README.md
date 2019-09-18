@@ -14,7 +14,11 @@
 - then run `live-reload` to get a hot-reloading version of the site
 
 ## Links
+
 Ticket: https://thenounproject.com/search/?q=ticket&i=2856172 
+
 Tickets: https://dribbble.com/shots/2670431-Tickets
+
 Paris: https://dribbble.com/shots/2613591-Time-for-Paris
+
 Slides: https://docs.google.com/presentation/d/1Nn1L2gGScRgLdtJXeFEqNqqEEFPXbIG1VMor5LQ72hg/edit
