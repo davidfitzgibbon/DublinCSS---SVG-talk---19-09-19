@@ -47,8 +47,6 @@ module.exports = function(grunt) {
     }
   });
 
-  // compiles your sass
-  grunt.loadNpmTasks('grunt-contrib-sass');
   // allows file watching
   grunt.loadNpmTasks('grunt-contrib-watch');
   // compiles the SVG sprite
